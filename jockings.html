@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>FAZE | Jockings</title>
+
+<style>
+
+body{
+margin:0;
+font-family:'Gill Sans', sans-serif;
+
+background:linear-gradient(rgba(0,0,0,0.88), rgba(0,20,30,0.75)),
+url("https://images.unsplash.com/photo-1507525428034-b723cf961d3e");
+
+background-size:cover;
+background-position:center;
+background-attachment:fixed;
+color:white;
+}
+
+/* header */
+header{
+text-align:center;
+padding:60px 20px 20px;
+}
+
+h1{
+font-size:48px;
+margin:0;
+letter-spacing:2px;
+}
+
+p{
+opacity:0.8;
+}
+
+/* grid */
+.grid{
+display:grid;
+grid-template-columns:repeat(auto-fit, minmax(240px, 1fr));
+gap:20px;
+padding:40px;
+max-width:1000px;
+margin:auto;
+}
+
+/* cards */
+.card{
+background:rgba(15,25,30,0.55);
+backdrop-filter:blur(12px);
+border-radius:20px;
+overflow:hidden;
+border:1px solid rgba(255,255,255,0.08);
+transition:0.3s;
+}
+
+.card:hover{
+transform:scale(1.03);
+}
+
+.card img{
+width:100%;
+height:260px;
+object-fit:cover;
+}
+
+/* content */
+.card-content{
+padding:15px;
+}
+
+/* button */
+a{
+display:block;
+margin-top:10px;
+padding:10px;
+text-align:center;
+background:rgba(255,255,255,0.08);
+color:white;
+text-decoration:none;
+border-radius:12px;
+transition:0.3s;
+}
+
+a:hover{
+background:rgba(255,255,255,0.15);
+}
+
+/* home button */
+.home{
+text-align:center;
+padding:20px;
+}
+
+.home a{
+display:inline-block;
+padding:12px 18px;
+background:rgba(255,255,255,0.08);
+border:1px solid rgba(255,255,255,0.12);
+border-radius:12px;
+text-decoration:none;
+color:white;
+}
+
+</style>
+
+</head>
+
+<body>
+
+<header>
+<h1>FAZE Jockings</h1>
+<p>Street luxury collection 🩳</p>
+</header>
+
+<div class="grid">
+
+<!-- SLOT 1 -->
+<div class="card">
+<img src="images/jock1_1.jpg">
+<div class="card-content">
+<h3>Shadow Core</h3>
+<p>$39.99</p>
+<a href="jock1.html">View Product</a>
+</div>
+</div>
+
+<!-- SLOT 2 -->
+<div class="card">
+<img src="images/jock2_1.jpg">
+<div class="card-content">
+<h3>Night Drift</h3>
+<p>$42.99</p>
+<a href="jock2.html">View Product</a>
+</div>
+</div>
+
+<!-- SLOT 3 -->
+<div class="card">
+<img src="images/jock3_1.jpg">
+<div class="card-content">
+<h3>Deep Pulse</h3>
+<p>$37.99</p>
+<a href="jock3.html">View Product</a>
+</div>
+</div>
+
+<!-- SLOT 4 -->
+<div class="card">
+<img src="images/jock4_1.jpg">
+<div class="card-content">
+<h3>Ocean Fade</h3>
+<p>$41.99</p>
+<a href="jock4.html">View Product</a>
+</div>
+</div>
+
+</div>
+
+<!-- HOME BUTTON -->
+<div class="home">
+<a href="homepage.html">← Back to Home</a>
+</div>
+
+</body>
+</html>

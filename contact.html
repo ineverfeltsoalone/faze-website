@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>FAZE Contact</title>
+
+<style>
+
+body{
+margin:0;
+font-family:'Gill Sans', sans-serif;
+
+/* SOFT DARK BEACH (NO NEON) */
+background-image:
+linear-gradient(rgba(0,0,0,0.55), rgba(0,0,0,0.35)),
+url("https://images.unsplash.com/photo-1500375592092-40eb2168fd21");
+
+background-size:cover;
+background-position:center;
+background-repeat:no-repeat;
+background-attachment:fixed;
+
+display:flex;
+justify-content:center;
+align-items:center;
+min-height:100vh;
+overflow:hidden;
+}
+
+/* subtle ambient overlay (no glow, no animation) */
+body::before{
+content:"";
+position:fixed;
+inset:0;
+background:rgba(0,0,0,0.2);
+pointer-events:none;
+}
+
+/* glass box (more muted, less shine) */
+.box{
+max-width:700px;
+background:rgba(15, 25, 30, 0.55);
+backdrop-filter:blur(14px);
+padding:40px;
+border-radius:28px;
+text-align:center;
+box-shadow:0 10px 30px rgba(0,0,0,0.45);
+border:1px solid rgba(255,255,255,0.08);
+position:relative;
+}
+
+/* title (no glow) */
+h1{
+font-size:50px;
+margin-bottom:30px;
+color:#f2f2f2;
+letter-spacing:1px;
+}
+
+/* text */
+p{
+font-size:20px;
+color:#e6e6e6;
+line-height:1.8;
+}
+
+/* buttons (clean, muted) */
+a{
+display:inline-block;
+margin:10px;
+padding:14px 22px;
+border-radius:18px;
+
+background:rgba(255,255,255,0.08);
+border:1px solid rgba(255,255,255,0.12);
+
+text-decoration:none;
+color:#f2f2f2;
+font-weight:bold;
+
+transition:0.25s ease;
+}
+
+a:hover{
+transform:scale(1.03);
+background:rgba(255,255,255,0.14);
+}
+
+/* instagram */
+.insta a{
+color:#f2f2f2;
+text-decoration:underline;
+}
+
+</style>
+</head>
+
+<body>
+
+<div class="box">
+
+<h1>Contact FAZE</h1>
+
+<p>📞 0560648026</p>
+
+<p class="insta">
+📸 Instagram:
+<a href="https://instagram.com/fazedesigned" target="_blank">
+@fazedesigned
+</a>
+</p>
+
+<p>DM for custom or personal designs ✨</p>
+
+<br>
+
+<a href="homepage.html">← Home</a>
+<a href="privacypolicy.html">Privacy & Policies</a>
+
+</div>
+
+</body>
+</html>
